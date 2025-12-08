@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav {
+            background-color: rgb(102, 102, 102);
+            padding: 3px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315);
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+        }
+        article {
+            background-color: lightgrey;
+        }
+        article > aside {
+            background-color: rgb(148, 148, 148);
+        }
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 3px;
+            margin: 0px;
+        }
+        footer > p {
+            margin: 0px;
+        }
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            border-radius: 50%;
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Menu do site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    
+        <main>
+            <section id="assuntos">
+            </section>
+            <section id="noticias">
+                <article>
+                    <h2>Noticias sobre Moçambique</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quo neque ullam, similique maxime quidem veniam? Minus, recusandae voluptatem. Atque ea odit ex deleniti velit veritatis? Eaque, non. Unde, impedit?</p>
+                    <aside>
+                        <p>Artigo criado por Mateus Kaomba</p>
+                    </aside>
+                </article>
+                <article>
+                </article>
+            </section>
+        </main>
+    <footer>
+        <p>Desenvolvido por Danilson Mateus</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>

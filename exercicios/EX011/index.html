@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens flexíveis</title>
+</head>
+<body>
+    <h1>Imagens dinamicas</h1>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexível">
+    </picture>
+    <h1>Reprodução de aúdio</h1>
+    <p>Aqui faremos a reprodução de aúdio.</p>
+    <audio>
+         <source src="media/guanacast-33.mp3" type="audio/mpeg">
+    </audio>
+    <audio src="media/jamesarthur-impossible.mp3" controls autoplay loop></audio>
+
+    <audio preload="metadata" autoplay controls>
+            <source src="media/guanacast-33.mp3" type="audio/mpeg">
+
+    </audio>
+</body>
+</html>
