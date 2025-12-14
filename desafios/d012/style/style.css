@@ -1,12 +1,19 @@
 @charset "UTF-8";
 
+:root {
+    --font1:  Verdana, Geneva, Tahoma, sans-serif;
+    --font2: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    --font3: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 * {
     margin: 0px;
     padding: 0px;
+    font-family: 
 }
 html, body {
     min-height: 100vh;
     background-color: darkgray;
+    font-family: var(--font1);
 }
 
 header {
@@ -17,6 +24,7 @@ header {
    h1 {
     padding-top: 50px;
     font-variant: small-caps;
+    font-family: var(--font2);
    }
    p {
         padding-bottom: 50px;
@@ -41,6 +49,7 @@ section {
     padding-bottom: 10vh;
     padding-left: 30px;
     line-height: 2em;
+    font-family: var(--font3);
 }
 
 section.normal {
@@ -53,7 +62,8 @@ section.imagem  {
 
     p {
         background-color: rgba(0, 0, 0, 0.253);
-        width: 400px;
+        display: inline-block;
+        padding: 5px;
     }
 }
 
