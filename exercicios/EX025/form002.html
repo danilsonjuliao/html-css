@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt_PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Usando Formulario</h1>
+        <form action="cadastro.php" method="post" autocomplete="on">
+            <p>
+                <label for="iusername"> Usuário : </label>
+                <input type="text" name="username" id="iusername" required minlength="8" maxlength="14" autocomplete="username">
+            </p>
+            <p>
+                <label for="ipassword">Palavra-passe :</label>
+                <input type="password" name="password" id="ipassword" min="8" autocomplete="current-password">
+            </p>
+            <p><input type="submit" value="Enviar"></p>
+        </form>
+    </main>
+</body>
+</html>
