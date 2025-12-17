@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form action="cadastro.php">
+
+        <select name="selecionar" id="iselecionar">
+            <optgroup label="Zona Centro">
+                <option value="ZBZ">Zambézia</option>
+                <option value="TT">Tete</option>
+                <option value="MNC">Manica</option>
+                <option value="SFL">Sofala</option>
+            </optgroup>
+            <optgroup label="Zona Sul">
+                <option value="MPT">Maputo</option>
+                <option value="GZ">Gaza</option>
+                <option value="INB">Inhambane</option>
+            </optgroup>
+            <optgroup label="Zona Norte">
+                <option value="NPL">Nampula</option>
+                <option value="CD">Cabo Delgdo</option>
+                <option value="NS">Niassa</option>
+            </optgroup>
+        </select>
+
+        <p><label for="iprof">Profissão : </label>
+        <input type="text" name="prof" id="iprof" list="iprofs">
+        <datalist id="iprofs">
+            <option value="ADM">Administrador</option>
+            <option> Professor</option>
+
+        </datalist>
+        </p>
+
+    </form>
+</body>
+</html>
