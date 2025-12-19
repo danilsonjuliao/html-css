@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <input type="button" value="Menu" id="burguer" onclick="clickMenu()">
+        <menu id="itens">
+            <ul>
+                <li><a href="">Opção 1</a></li>
+                <li><a href="">Opção 2</a></li>
+                <li><a href="">Opção 3</a></li>
+                <li><a href="">Opção 4</a></li>
+                <li><a href="">Opção 5</a></li>
+            </ul>
+        </menu>
+    </header>
+
+    <main>
+        <article>
+            <h2>Testando o media Query</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur nihil fuga dolor id in ducimus rerum? Modi necessitatibus molestiae unde quisquam, quis, nulla illum eum tenetur culpa voluptates repellat officiis?
+            Et eius voluptatibus ex vero aperiam fugiat, cum magni ab quos! Corrupti libero officia nihil natus? Ducimus exercitationem, mollitia repellat totam repellendus esse quam corrupti consequuntur sequi. Labore, quod similique.
+            Nihil ipsum dignissimos voluptate atque aspernatur veritatis perferendis provident doloremque, expedita consectetur, iure doloribus vero laudantium. Sapiente temporibus voluptatibus, ex a libero earum, deleniti hic quod voluptates mollitia odit laboriosam!
+            Quam obcaecati ducimus deserunt porro doloribus est itaque labore iusto quia totam nostrum dignissimos sint excepturi quo, ab quod magnam fuga. Rem iure consequuntur magni aperiam. Voluptate ipsum fugiat sapiente.
+            Dolor asperiores possimus, ipsa sapiente deserunt aperiam. Exercitationem amet soluta blanditiis sed cum, error nobis laudantium iste explicabo quod modi, illum earum placeat fuga ipsam ducimus similique minima est impedit.
+            Ipsum, quam. In expedita alias possimus aperiam facilis provident rem voluptate voluptatem ad vel illo consectetur atque nam voluptates tenetur facere nostrum aspernatur, nemo assumenda neque modi ut veritatis non.
+            Vitae, ea. Eaque hic dignissimos quibusdam molestias harum illo ratione libero dolor! Obcaecati quis doloremque placeat beatae dolorum accusantium tempore maiores cum quisquam corporis. Id, aperiam facilis. Fugiat, eveniet possimus.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique placeat accusantium laudantium molestias rerum, nemo eligendi aspernatur, consequatur, alias saepe assumenda itaque. Esse quaerat repellat temporibus molestiae exercitationem? Corrupti, obcaecati!</p>
+        </article>
+    </main>
+
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            }
+            else {
+                itens.style.display = 'block'
+            }
+
+        }
+    </script>
+</body>
+</html>
